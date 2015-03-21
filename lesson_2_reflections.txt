@@ -1,3 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 When I initialized a repository, Git will track the commits I'll be making. However, since there is no history to track by default its at 0. I need Git to track any changes/commits I'll be making. So far, my reflections text prior to setting up the repository was not tracked, so there is no history of changes recorded. Now with Git, it's now being tracked.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging allows me to track the history of all my changes/commits without submitting to the respository. 
