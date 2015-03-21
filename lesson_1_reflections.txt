@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file 
+help you see the bug that was introduced?
+
+I was able to pinpoint exactly where the differences were, and how to 
+debug the issue. Very helpful!!
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I could always look back at previous efforts that may contain code that could work well with future/current projects. Or if I'm looking to resolve an issue in my current project that I may have solved in a previous version.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros of manually saving is I can recall specific versions later. Allows me to revert
+files to a previous state, revert an entire project back to previous state,
+compare changes over time, see who last modified what if I'm on a team. Also, if I happen to 
+really screw up my project I can easily recover it.
+
+Cons is I could confuse myself by having too many or too little commits. The commits could be entirely usesless. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git allows you to track the all files in every respository. Files may be connected like html and css must to saved together. However, some code may solve the same issue but require different functions so those are two separate commits that must be saved separately. Git also allows you to see logs and history of changes/commits which
+effects all attached files. You can then compare the changes with previous versions.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log allows me to see all commits (most recent to earliest). Git diff allows me to compare 2 commits, however, its important to compare commits that are close in time and not too far
+in between to have a clearer comparison of the two commits.
+
+How might using version control make you more confident to make changes that could break something?
+
+I could always revert back to earlier versions and invistigate where it 'broke'.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Setting up the workspace was a kind of confusing at first. Sublime directory path was off so was the was trying to update the bash profile. However, I got it all running now. I definitely will be using Git for my new projects I'll be creating. Learning Front-End Development is gonna be a long journey for me but I'm willing to take it one project at a time (e.g. commits all DAY!!)
