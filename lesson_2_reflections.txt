@@ -5,3 +5,8 @@ When I initialized a repository, Git will track the commits I'll be making. Howe
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging allows me to track the history of all my changes/commits without submitting to the respository. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area allows me to review my changes and decide what changes I'm happy with. I'll git status to see what's in the staging area,
+and review if these are new changes different from whats in the repository and then commit my changes.
