@@ -10,3 +10,32 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 The staging area allows me to review my changes and decide what changes I'm happy with. I'll git status to see what's in the staging area,
 and review if these are new changes different from whats in the repository and then commit my changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches lets me see a history of commits. I can always look back at what I've done, which can be helpful
+in resolving a bug, checkout of a master branch and look at old branches to find code I've written that 
+I can use for current projects. Also, adding new features or working with experimental features for branches
+that aren't the master. Also, when collaborating on a project I can create my own branch and keep things organized,
+creating multiple branches we all individually working without changes being committed without anyone else knowing.
+
+How do the diagrams help you visualize the branch structure?
+Drawing a diagram I can trace the history of a commit, and its parent (stores a reference to the commit that was checked out when it was made).
+Its good practice to trace to a commit that doesn't have a parent (the very first commit). Also, by working on experimental branches,
+I can later merge it with master branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When merging two branches you are bringing in a one branch to the master, creating a new tip. You must bring in a branch into the master 
+branch since thats the branch that is getting updated. For example: you have a branch called 'easy-mode' and 'master'. You must
+currently have 'easy-mode' checkout then 'git merge master' to merge it INTO the master branch. Note when deleting branches, you
+are only deleting the labels not the actual branch, so its important that you merge it INTO the master first.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Scenario: Two identical files with changes in the same general area.
+Getting GIT to auto merge would be a huge undertaking so instead, GIT asks users to 
+manually resolve this conflict. So when two identical files with changes in the same general area are found,
+a merge conflict arises, and GIT will allow the user to figure out for themselves which changes to keep. Its better
+that GIT doesn't automatically does this for us since weird conglomerate changes could happen that wouldn't make
+any sense and probably won't run.
