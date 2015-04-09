@@ -12,3 +12,13 @@ Forks can ONLY be used on Github. Github allows you fork an existing code and du
 to your repository. Clones are copies of an original code, however, clones can be copied/duplicated into 
 another repository (whether its local or remote). Branches are commit histories of projects, in the form 
 of master and supporting/experimental branches.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+The benefit is knowing your local master and the remote origin/master will share the same commit starting point.
+Any changes made from that point onto your local master, will also keep track of how many commits
+you're ahead or behind, up to date or out of sync with compared to the remote copy (origin/master).
+Before any fetch, we know what the status of our commit history of the local master is. Any changes
+made by other collaborators on Github, can later then be pulled into the local master and merged.
+Since we can check the status of the local master, we can find out how far in front or behind we are from
+the remote copy. Later we can then 'git pull origin master' into our local master. 'git-add' this new 
+merged branch, and commit to Github.
