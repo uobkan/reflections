@@ -22,3 +22,14 @@ made by other collaborators on Github, can later then be pulled into the local m
 Since we can check the status of the local master, we can find out how far in front or behind we are from
 the remote copy. Later we can then 'git pull origin master' into our local master. 'git-add' this new 
 merged branch, and commit to Github.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+First thought is I'd probably have to communicate to the team what master file we'll all work with. Then 
+we'll have to create our own file names unique from the master file, and work independently. Then when
+we do meet again to discuss changes, we can compare what we did that was independent of the original,
+and may want to merge various aspects of our work that we think works best for the project. This can be
+tedious since we'll have to go through each team member's code to see what was changed, which could take 
+a long time. With Git or Github, I'll instantly see what was add/removed from master and can pin point
+exactly where the was a bug or error, that we as a team can tackle and resolve together so that we
+can have the best project we can have.
