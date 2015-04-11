@@ -33,3 +33,10 @@ tedious since we'll have to go through each team member's code to see what was c
 a long time. With Git or Github, I'll instantly see what was add/removed from master and can pin point
 exactly where the was a bug or error, that we as a team can tackle and resolve together so that we
 can have the best project we can have.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I'll make changes in a separate branch so that I can work out kinks or bugs that I may have on the master or if I want
+to work on new features. By working independent of the master, I can have more freedom without the fear of changes being
+commitedt that I may REGRET later or if I'm working on a team, I would know that they are also working on seperate branches
+so that we are kept in the loop at all times without changes being committed underneath us. 
